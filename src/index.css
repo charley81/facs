@@ -19,6 +19,7 @@ body {
   letter-spacing: 2px;
   background-color: var(--color-mid);
   font-family: var(--font-family);
+  color: var(--color-dark);
 }
 
 .title {
@@ -28,9 +29,33 @@ body {
 
 .question-container {
   background: var(--color-dark);
-  color: var(--color-light);
   max-width: 700px;
   margin: 2rem auto 0;
   padding: 1rem;
   border-radius: var(--border-radius);
+}
+
+.question {
+  margin: 1rem 0;
+  background: var(--color-mid);
+  padding: 1rem;
+  border-radius: var(--border-radius);
+}
+
+.question h3 {
+  display: flex;
+  align-items: center;
+}
+
+.icon-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.icon {
+  color: teal;
+  font-size: 2rem;
+  margin-left: 1rem;
+  cursor: pointer;
 }

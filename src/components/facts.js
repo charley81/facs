@@ -6,7 +6,7 @@ const Facts = () => {
   return (
     <div className="question-container">
       {questions.map(question => (
-        <Question questions={questions} />
+        <Question key={question.id} questions={questions} {...question} />
       ))}
     </div>
   )
